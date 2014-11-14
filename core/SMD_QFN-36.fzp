@@ -9,9 +9,10 @@
 <tag>SMD</tag>
 </tags>
 <properties>
-<property name='package'>QFN-36</property>
-<property name='family'>Generic IC</property>
-<property name='chip label'>QFN-36</property>
+<property name="package">QFN</property>
+<property name='connectors'>36</property>
+<property name='family'>Generic IC (smd)</property>
+<property name='chip label'>QFN36</property>
 <property name='editable pin labels'>true</property>
 </properties>
 <views>

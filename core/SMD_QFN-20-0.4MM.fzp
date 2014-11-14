@@ -3,15 +3,16 @@
 <version>4</version>
 <date>2011-04-06</date>
 <author>jonathan</author>
-<description></description>
+<description>QFN20-0.4mm</description>
 <title>QFN-20-0.4MM</title>
 <tags>
 <tag>SMD</tag>
 </tags>
 <properties>
-<property name='package'>QFN-20-0.4MM</property>
-<property name='family'>Generic IC</property>
-<property name='chip label'>QFN-20-0.4MM</property>
+<property name="package">QFN</property>
+<property name='connectors'>20 (0.4mm)</property>
+<property name='family'>Generic IC (smd)</property>
+<property name='chip label'>QFN20</property>
 <property name='editable pin labels'>true</property>
 </properties>
 <views>

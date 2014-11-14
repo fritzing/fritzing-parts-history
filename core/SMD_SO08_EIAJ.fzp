@@ -10,9 +10,10 @@
 <tag>EIAJ</tag>
 </tags>
 <properties>
-<property name='package'>SO08-EIAJ</property>
+<property name='package'>SO(EIAJ)</property>
+<property name='connectors'>8</property>
 <property name='family'>Generic IC</property>
-<property name='chip label'>SO08</property>
+<property name='chip label'>SO08-EIAJ</property>
 <property name='editable pin labels'>true</property>
 </properties>
 <views>

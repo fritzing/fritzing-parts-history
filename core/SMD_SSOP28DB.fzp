@@ -9,9 +9,10 @@
 <tag>SMD</tag>
 </tags>
 <properties>
-<property name='package'>SSOP28DB</property>
-<property name='family'>Generic IC</property>
+<property name='package'>SSOP</property>
+<property name='family'>Generic IC (smd)</property>
 <property name='chip label'>SSOP28DB</property>
+<property name='connectors'>28</property>
 <property name='editable pin labels'>true</property>
 </properties>
 <views>
