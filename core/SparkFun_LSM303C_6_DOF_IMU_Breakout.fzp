@@ -3,8 +3,14 @@
 <version>4</version>
 <date>2015-10-04</date>
 <author>f.althaus</author>
-<description></description>
-<title>SparkFun_LSM303C_6_DOF_IMU_Breakout</title>
+<url>https://www.sparkfun.com/products/13303</url>
+<description>SparkFun 6 Degrees of Freedom Breakout - LSM303C
+The LSM303C is a 6 Degrees of Freedom (6DOF) inertial measurement unit (IMU) in a single package, specifically developed as an eCompass device. Due to the IC housing a 3-axis accelerometer and a 3-axis magnetometer combined with its low cost, the LSM303C was perfect for us to create this small breakout board just for you! Each LSM303C Breakout has been designed to be super-flexible and can be configured specifically for many applications. The LSM303C Breakout can be configured to generate an interrupt signal for free-fall, motion detection and magnetic field detection!
+
+The range of each sensor on the LSM303C is configurable: the accelerometer&#8217;s scale can be set to &#177;2g, &#177;4g, &#177;6g, or &#177;8g, while the magnetometer has full-scale range of &#177;16 gauss, and supports I2C and SPI communication.
+
+Each pin has been broken out on the LSM303C, with 10 plated through hole connections featuring power and I2C and SPI functionality, interrupt outputs, and accelerometer and magnetometer data out. Please keep in mind that the LSM303C is a 2.5V device so supplying voltages greater than ~4.8V can permanently damage the IC. As long as your Arduino has a 3.3V supply output, you shouldn&#8217;t need any extra level shifting.</description>
+<title>LSM303C (6 DOF)</title>
 <tags>
 <tag>Breakout</tag>
 <tag>LSM303C</tag>
@@ -12,7 +18,7 @@
 <tag>Sparkfun</tag>
 </tags>
 <properties>
-<property name='version'>1</property>
+<property name='power'>1.9 to 3.6V</property>
 <property name='family'>Sparkfun Breakout</property>
 <property name='variant'>LSM303C 6 DOF IMU</property>
 </properties>

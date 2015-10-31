@@ -42,7 +42,7 @@
 </iconView>
 </views>
 <connectors>
-<connector id='connector10' type='female' name='GND'>
+<connector id='connector10' type='female' name='PGND'>
 <description>GND</description><views>
 <breadboardView>
 <p layer='breadboard' svgId='connector10pin'/></breadboardView>
@@ -62,8 +62,8 @@
 <p layer='copper0' svgId='connector11pad'/><p layer='copper1' svgId='connector11pad'/></pcbView>
 </views>
 </connector>
-<connector id='connector12' type='female' name='GND'>
-<description>GND</description><views>
+<connector id='connector12' type='female' name='D-'>
+<description>D-/DGND</description><views>
 <breadboardView>
 <p layer='breadboard' svgId='connector12pin'/></breadboardView>
 <schematicView>
@@ -72,8 +72,8 @@
 <p layer='copper0' svgId='connector12pad'/><p layer='copper1' svgId='connector12pad'/></pcbView>
 </views>
 </connector>
-<connector id='connector13' type='female' name='CTRL_CH1'>
-<description>CTRL_CH1</description><views>
+<connector id='connector13' type='female' name='D+'>
+<description>D+/CTRL_CH1</description><views>
 <breadboardView>
 <p layer='breadboard' svgId='connector13pin'/></breadboardView>
 <schematicView>
@@ -103,10 +103,4 @@
 </views>
 </connector>
 </connectors>
-<buses>
-<bus id='gnd'>
-<nodeMember connectorId='connector10'/>
-<nodeMember connectorId='connector12'/>
-</bus>
-</buses>
 </module>

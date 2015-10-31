@@ -4,7 +4,7 @@
 <date>2015-10-04</date>
 <author>f.althaus</author>
 <description></description>
-<title>MyoWare_Power_Shield</title>
+<title>MyoWare Power Shield</title>
 <tags>
 <tag>MyoWare</tag>
 <tag>Powershield</tag>
@@ -13,8 +13,8 @@
 </tags>
 <properties>
 <property name='version'>v10</property>
-<property name='family'>Sparkfun Shield</property>
-<property name='variant'>MyoWare Power Shield</property>
+<property name='family'>MyoWare</property>
+<property name='variant'>Power Shield</property>
 </properties>
 <views>
 <breadboardView>

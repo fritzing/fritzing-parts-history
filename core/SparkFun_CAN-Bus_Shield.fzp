@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <module fritzingVersion='0.5.2b.02.18.4756' moduleId='SparkFun_CAN-Bus_Shield'>
 <version>4</version>
-<date>2015-10-04</date>
+<date>2015-10-31</date>
 <author>f.althaus</author>
 <description>This shield gives the Arduino CAN-Bus capability. It uses the Microchip MCP2515 CAN controller with MCP2551 CAN transceiver. CAN connection is via a standard 9-way sub-D for use with OBD-II cable. Ideal for automative CAN application. The shield also has a uSD card holder, serial LCD connector and connector for an EM406 GPS module. Making this shield ideal for data logging application.
 </description>
@@ -43,16 +43,6 @@
 </iconView>
 </views>
 <connectors>
-<connector id='connector31' type='female' name='5V'>
-<description>5V</description><views>
-<breadboardView>
-<p layer='breadboard' svgId='connector31pin'/></breadboardView>
-<schematicView>
-<p layer='schematic' svgId='connector31pin' terminalId='connector31terminal'/></schematicView>
-<pcbView>
-<p layer='copper0' svgId='connector31pad'/><p layer='copper1' svgId='connector31pad'/></pcbView>
-</views>
-</connector>
 <connector id='connector36' type='female' name='5V'>
 <description>5V</description><views>
 <breadboardView>
@@ -61,6 +51,36 @@
 <p layer='schematic' svgId='connector36pin' terminalId='connector36terminal'/></schematicView>
 <pcbView>
 <p layer='copper0' svgId='connector36pad'/><p layer='copper1' svgId='connector36pad'/></pcbView>
+</views>
+</connector>
+<connector id='connector37' type='female' name='GND'>
+<description>GND</description><views>
+<breadboardView>
+<p layer='breadboard' svgId='connector37pin'/></breadboardView>
+<schematicView>
+<p layer='schematic' svgId='connector37pin' terminalId='connector37terminal'/></schematicView>
+<pcbView>
+<p layer='copper0' svgId='connector37pad'/><p layer='copper1' svgId='connector37pad'/></pcbView>
+</views>
+</connector>
+<connector id='connector38' type='female' name='CANH'>
+<description>CANH</description><views>
+<breadboardView>
+<p layer='breadboard' svgId='connector38pin'/></breadboardView>
+<schematicView>
+<p layer='schematic' svgId='connector38pin' terminalId='connector38terminal'/></schematicView>
+<pcbView>
+<p layer='copper0' svgId='connector38pad'/><p layer='copper1' svgId='connector38pad'/></pcbView>
+</views>
+</connector>
+<connector id='connector39' type='female' name='CANL'>
+<description>CANL</description><views>
+<breadboardView>
+<p layer='breadboard' svgId='connector39pin'/></breadboardView>
+<schematicView>
+<p layer='schematic' svgId='connector39pin' terminalId='connector39terminal'/></schematicView>
+<pcbView>
+<p layer='copper0' svgId='connector39pad'/><p layer='copper1' svgId='connector39pad'/></pcbView>
 </views>
 </connector>
 <connector id='connector91' type='female' name='3.3V'>
@@ -386,11 +406,11 @@
 </connectors>
 <buses>
 <bus id='5v'>
-<nodeMember connectorId='connector31'/>
 <nodeMember connectorId='connector36'/>
 <nodeMember connectorId='connector92'/>
 </bus>
 <bus id='gnd'>
+<nodeMember connectorId='connector37'/>
 <nodeMember connectorId='connector112'/>
 <nodeMember connectorId='connector113'/>
 <nodeMember connectorId='connector114'/>

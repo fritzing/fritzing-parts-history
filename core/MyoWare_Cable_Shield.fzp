@@ -2,9 +2,9 @@
 <module fritzingVersion='0.5.2b.02.18.4756' moduleId='MyoWare_Cable_Shield'>
 <version>4</version>
 <date>2015-10-04</date>
-<author>joev.noise</author>
+<author>fabian althaus</author>
 <description></description>
-<title>MyoWare_Cable_Shield</title>
+<title>MyoWare Cable Shield</title>
 <tags>
 <tag>MyoWare</tag>
 <tag>CableShield</tag>
@@ -12,8 +12,8 @@
 <tag>Sparkfun</tag>
 </tags>
 <properties>
-<property name='family'>Sparkfun Shield</property>
-<property name='variant'>MyoWare Cable Shield</property>
+<property name='family'>MyoWare</property>
+<property name='variant'>Cable Shield</property>
 <property name='version'>v10</property>
 </properties>
 <views>

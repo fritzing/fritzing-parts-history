@@ -3,7 +3,12 @@
 <version>4</version>
 <date>2015-10-04</date>
 <author>f.althaus</author>
-<description></description>
+<url>https://www.sparkfun.com/products/13676</url>
+<description>SparkFun Atmospheric Sensor Breakout - BME280
+SEN-13676 
+The SparkFun BME280 Atmospheric Sensor Breakout is the easy way to measure barometric pressure, humidity, and temperature readings all without taking up too much space. Basically, anything you need to know about atmospheric conditions you can find out from this tiny breakout. The BME280 Breakout has been design to be used in indoor/outdoor navigation, weather forecasting, home automation, and even personal health and wellness monitoring.
+
+The on-board BME280 sensor measures atmospheric pressure from 30kPa to 110kPa as well as relative humidity and temperature. The breakout provides a 3.3V SPI interface, a 5V tolerant I2C interface (with pull-up resistors to 3.3V), takes measurements at less than 1mA and idles less than 5&#181;A. The BME280 Breakout board has 10 pins, but no more than six are used at a single time. The left side of the board provide power, ground, and I2C pins. The remaining pins which provide SPI functionality and have another power and ground, are broken out on the other side.</description>
 <title>BME280 Breakout</title>
 <tags>
 <tag>Breakout</tag>
@@ -11,7 +16,7 @@
 <tag>Sparkfun</tag>
 </tags>
 <properties>
-<property name='version'>n/o</property>
+<property name='power'>3.3V</property>
 <property name='family'>Sparkfun Breakout</property>
 <property name='variant'>BME280</property>
 </properties>

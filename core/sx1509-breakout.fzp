@@ -3,8 +3,14 @@
 <version>4</version>
 <date>2015-10-04</date>
 <author>f.althaus</author>
-<description>brakout for sx1509</description>
-<title>sx1509-breakout</title>
+<url>https://www.sparkfun.com/products/13601</url>
+<description>SparkFun 16 Output I/O Expander Breakout - SX1509
+Are you low on I/O? No problem! The SX1509 Breakout is a 16-channel GPIO expander with an I2C interface &#8211; that means with just two wires, your microcontroller can interface with 16 fully configurable digital input/output pins. But the SX1509 can do so much more than just simple digital pin control. It can produce PWM signals, so you can dim LEDs. It can be set to blink or even breathe pins at varying rates. And, with a built-in keypad engine, it can interface with up to 64 buttons set up in an 8x8 matrix.
+
+Two headers at the top and bottom of the breakout board function as the input and control headers to the board. This is where you can supply power to the SX1509, and where your I2C signals &#8211; SDA and SCL &#8211; will terminate. GPIO and power buses are broken out in every-which direction, and configurable jumpers cover most of the rest of the board.
+
+Since the I/O banks can operate between 1.2V and 3.6V (5.5V tolerant) independent of both the core and each other, this device can also work as a level-shifter. The SX1509 breakout makes it easy to prototype so you can add more I/O onto your Arduino or I/O limited controller. We&#8217;ve even spun up an Arduino Library to get you started!</description>
+<title>sx1509 breakout</title>
 <tags>
 </tags>
 <properties>
