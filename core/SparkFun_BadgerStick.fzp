@@ -1,13 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <module fritzingVersion='0.5.2b.02.18.4756' moduleId='SparkFun_BadgerStick'>
 <version>4</version>
-<date>2015-10-31</date>
+<date>2015-11-04</date>
 <author>f.althaus</author>
-<description>Interactive Badges
-These badges were designed as a soldering demo for the SparkFun booths at Maker Faire. They were designed to teach the basics of PTH soldering, as well as to provide users with an Arduino platform they could take home and hack.
-
+<description>Interactive Badges
+
+These badges were designed as a soldering demo for the SparkFun booths at Maker Faire. They were designed to teach the basics of PTH soldering, as well as to provide users with an Arduino platform they could take home and hack.
+
+
+
 Please view the tutorial on hacking your badge for more information.</description>
 <title>BadgerStick</title>
+<url>https://learn.sparkfun.com/tutorials/badgerhack</url>
 <tags>
 <tag>Array</tag>
 <tag>Badger</tag>
@@ -43,6 +47,46 @@ Please view the tutorial on hacking your badge for more information.</descriptio
 </iconView>
 </views>
 <connectors>
+<connector id='connector28' type='female' name='5V'>
+<description>5V</description><views>
+<breadboardView>
+<p layer='breadboard' svgId='connector28pin'/></breadboardView>
+<schematicView>
+<p layer='schematic' hybrid='yes' svgId='connector28pin' terminalId='connector28terminal'/></schematicView>
+<pcbView>
+<p layer='copper0' svgId='connector28pad' hybrid='yes'/><p layer='copper1' svgId='connector28pad' hybrid='yes'/></pcbView>
+</views>
+</connector>
+<connector id='connector29' type='female' name='GND'>
+<description>GND</description><views>
+<breadboardView>
+<p layer='breadboard' svgId='connector29pin'/></breadboardView>
+<schematicView>
+<p layer='schematic' svgId='connector29pin' hybrid='yes'terminalId='connector29terminal'/></schematicView>
+<pcbView>
+<p layer='copper0' svgId='connector29pad' hybrid='yes'/><p layer='copper1' svgId='connector29pad' hybrid='yes'/></pcbView>
+</views>
+</connector>
+<connector id='connector30' type='female' name='D-'>
+<description>D-</description><views>
+<breadboardView>
+<p layer='breadboard' svgId='connector30pin'/></breadboardView>
+<schematicView>
+<p layer='schematic' svgId='connector30pin' hybrid='yes' terminalId='connector30terminal'/></schematicView>
+<pcbView>
+<p layer='copper0' svgId='connector30pad' hybrid='yes'/><p layer='copper1' hybrid='yes' svgId='connector30pad'/></pcbView>
+</views>
+</connector>
+<connector id='connector31' type='female' name='D+'>
+<description>D+</description><views>
+<breadboardView>
+<p layer='breadboard' svgId='connector31pin'/></breadboardView>
+<schematicView>
+<p layer='schematic' svgId='connector31pin' hybrid='yes' terminalId='connector31terminal'/></schematicView>
+<pcbView>
+<p layer='copper0' svgId='connector31pad' hybrid='yes'/><p layer='copper1' hybrid='yes' svgId='connector31pad'/></pcbView>
+</views>
+</connector>
 <connector id='connector32' type='female' name='D9'>
 <description>D9</description><views>
 <breadboardView>
@@ -366,9 +410,14 @@ Please view the tutorial on hacking your badge for more information.</descriptio
 </connectors>
 <buses>
 <bus id='gnd'>
+<nodeMember connectorId='connector29'/>
 <nodeMember connectorId='connector40'/>
 <nodeMember connectorId='connector48'/>
 <nodeMember connectorId='connector62'/>
+</bus>
+<bus id='5v'>
+<nodeMember connectorId='connector28'/>
+<nodeMember connectorId='connector46'/>
 </bus>
 <bus id='rxi'>
 <nodeMember connectorId='connector42'/>
